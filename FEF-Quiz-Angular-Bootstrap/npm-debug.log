@@ -1,0 +1,58 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\rave\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g' ]
+2 info using npm@3.8.5
+3 info using node@v4.4.2
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData .
+8 silly fetchDirectoryPackageData .
+9 silly install normalizeTree
+10 silly loadCurrentTree Finishing
+11 silly loadIdealTree Starting
+12 silly install loadIdealTree
+13 silly cloneCurrentTree Starting
+14 silly install cloneCurrentTreeToIdealTree
+15 silly cloneCurrentTree Finishing
+16 silly loadShrinkwrap Starting
+17 silly install loadShrinkwrap
+18 silly loadShrinkwrap Finishing
+19 silly loadAllDepsIntoIdealTree Starting
+20 silly install loadAllDepsIntoIdealTree
+21 silly resolveWithNewModule bootstrapquiz@ checking installable status
+22 silly cache add args [ '.', null ]
+23 verbose cache add spec .
+24 silly cache add parsed spec Result {
+24 silly cache add   raw: '.',
+24 silly cache add   scope: null,
+24 silly cache add   name: null,
+24 silly cache add   rawSpec: '.',
+24 silly cache add   spec: 'C:\\Users\\rave\\Documents\\GitHub\\Angular1\\FEF-Quiz-Angular-Bootstrap',
+24 silly cache add   type: 'directory' }
+25 error addLocal Could not install C:\Users\rave\Documents\GitHub\Angular1\FEF-Quiz-Angular-Bootstrap
+26 silly rollbackFailedOptional Starting
+27 silly rollbackFailedOptional Finishing
+28 silly runTopLevelLifecycles Starting
+29 silly runTopLevelLifecycles Finishing
+30 silly install printInstalled
+31 verbose stack Error: No version provided in package.json
+31 verbose stack     at C:\Users\rave\AppData\Roaming\npm\node_modules\npm\lib\cache\add-local.js:73:17
+31 verbose stack     at C:\Users\rave\AppData\Roaming\npm\node_modules\npm\node_modules\read-package-json\read-json.js:345:5
+31 verbose stack     at checkBinReferences_ (C:\Users\rave\AppData\Roaming\npm\node_modules\npm\node_modules\read-package-json\read-json.js:309:45)
+31 verbose stack     at final (C:\Users\rave\AppData\Roaming\npm\node_modules\npm\node_modules\read-package-json\read-json.js:343:3)
+31 verbose stack     at then (C:\Users\rave\AppData\Roaming\npm\node_modules\npm\node_modules\read-package-json\read-json.js:113:5)
+31 verbose stack     at C:\Users\rave\AppData\Roaming\npm\node_modules\npm\node_modules\read-package-json\read-json.js:300:12
+31 verbose stack     at C:\Users\rave\AppData\Roaming\npm\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:78:16
+31 verbose stack     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:380:3)
+32 verbose cwd C:\Users\rave\Documents\GitHub\Angular1\FEF-Quiz-Angular-Bootstrap
+33 error Windows_NT 10.0.10586
+34 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\rave\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g"
+35 error node v4.4.2
+36 error npm  v3.8.5
+37 error No version provided in package.json
+38 error If you need help, you may report this error at:
+38 error     <https://github.com/npm/npm/issues>
+39 verbose exit [ 1, true ]
